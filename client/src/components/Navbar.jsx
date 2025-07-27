@@ -9,7 +9,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between px-10 md:px-32">
+    <div className="flex fixed top-0 w-full bg-gray-400 py-3 shadow-md 
+     items-center justify-between px-10 md:px-32">
       <Link to={"/"} className="text-3xl font-bold">
         Shopping cart
       </Link>
